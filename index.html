@@ -4,47 +4,68 @@
     <meta charset="utf-8">
     <title>Martin's Aquarium</title>
     <link rel="stylesheet" href="./styles/main.css">
+    <script type="module" src="./scripts/main.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
   </head>
 
   <body>
-    <script type="module" src="./scripts/main.js"></script>
+    <div class="background">
     <header class="header">
-        <img src="logo.logo" alt="logo" />
+        <div class="title-elements">
+        <img src="images/fishylogo.png" alt="logo" class="title" />
         <h1 class="title">Martin's Aquarium</h1>
+        </div>
     </header>
-    <main class="">
+    <main class="aquarium">
         <aside class="care__tips">
-            <h2 class="header--care__tips">Tank Care</h2>
+            <h2 class="header--care__tips">Martin's Musings</h2>
             <ul class="ul--care__tips">
                 <li class="care__tip">Clean the tanks</li>
                 <li class="care__tip">Change the water.</li>
                 <li class="care__tip">Change the filter.</li>
             </ul>
         </aside>
-    <section class="fishes">
+    <section class="fishies">
         <h2>Martin's Fish</h2>
         <article class="fish">
-            <h3 class="fish_name">Mr.Tickeles</h3>
-            <p class="fish_species">Gold Fish</p>
             <img src="" alt="" />
-            <p class="fish_length">2 inches</p>
-            <p class="fish_location">Tulum, Mexico</p>
-            <p> git</p>
-            
+            <h3 class="fish_name">Bulma</h3>
+            <p class="fish_species">Species: Gold Fish</p>
+            <p class="fish_length">Length: 2 inches</p>
+            <p class="fish_location">Harvest Location: Barbados</p>
+            <p class="food">Favorite Food: Mosquito Larvae</p>
+            <img src="" alt="" />
+            <h3 class="fish_name">Trunks</h3>
+            <p class="fish_species">Species: Baracuda</p>
+            <p class="fish_length">Length: 7 inches</p>
+            <p class="fish_location">Harvest Location: Bermuda</p>
+            <p class="food">Favorite Food: Anchovies</p>
+            <img src="" alt="" />
+            <h3 class="fish_name">Android 13</h3>
+            <p class="fish_species">Species: Clownfish</p>
+            <p class="fish_length">Length: 9 inches</p>
+            <p class="fish_location">Harvest Location: Bali</p>
+            <p class="food">Favorite Food: Tunicate Larvae</p>
         </article>
     </section>
-
-    <section class="quotes">
-        <p>fish are nice</p>
-        <p>fish are cool</p>
-        <p>fish are cute</p>
+    <section class="travel_quotes">
+        <h2>Travel Thoughts</h2>
+        <article class="quotes">
+            <p class="travel_quote">One time in Barbados I stepped on a jellyfish while looking for a baracuda, and the jellyfish looked at me.</p>
+            <p class="travel_quote">Make sure you have a lot of money before you get into collecting fancy fish! You'll need it to travelo to all the exotic places I've been!</p>
+            <p class="travel_quote">Make sure to bring lots of travelers checks. LOTS OF THEM. Like, a few hundred at least.</p>
+        </article>
     </section>
-
     <section class="locations">
-        <img src="location.location" alt="location1" /><br>
-        <img src="location.location" alt="location2" /><br>
-        <img src="location.location" alt="location3" /><br>
+        <h2>Around the World</h2>
+        <article class="location_photos"></article>
+            <img src="images/barbados.webp" alt="Barbados" />
+            <img src="images/bermuda.jpeg" alt="Bermuda" />
+            <img src="images/Bali.jpg" alt="Bali" />
+        </article>
     </section>
-
+    </main>
+    </div>
   </body>
 </html>

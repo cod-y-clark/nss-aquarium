@@ -1,3 +1,27 @@
-#fishtank {}
-.fish {}
-.fish_name {}
+html {
+	background-image: url('./../images/school-fish-sea-seamless-pattern-background-vector-20450270.jpeg');
+	background-attachment: fixed;
+}
+
+header {
+	color: rgb(5, 70, 70);
+	font-family: 'Shadows Into Light', cursive;
+	background-color: rgb(9, 243, 243, .15);
+	margin: -10px;
+	margin-top: -10px;
+	margin-bottom: 50px;
+	padding: 1px;
+    display: flex;
+    align-items: center;
+}
+
+.title-elements {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+aside {
+    border: 5px double rgb(9, 243, 243);
+}
