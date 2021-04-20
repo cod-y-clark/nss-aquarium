@@ -39,6 +39,7 @@ aside {
 	margin-right: 20em;
 	flex-direction: column;
 	padding: 1em;
+	font-family: 'Lora', serif;
 }
 
 .fishies {
@@ -49,6 +50,7 @@ aside {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
+	font-family: 'Lora', serif;
 }
 
 .fishies img {
@@ -63,6 +65,7 @@ aside {
 	margin-right: 50em;
 	padding: 10px;
 	align-items: center;
+	font-family: 'Lora', serif;
 }
 
 .locations {
@@ -84,4 +87,5 @@ aside {
 
 .location {
 	text-align: center;
+	font-family: 'Lora', serif;
 }
