@@ -6,13 +6,21 @@ html {
 header {
 	color: rgb(5, 70, 70);
 	font-family: 'Shadows Into Light', cursive;
-	background-color: rgb(9, 243, 243, .15);
+	font-size: 2em;
+	background-color: rgb(9, 243, 243, .40);
 	margin: -10px;
 	margin-top: -10px;
 	margin-bottom: 50px;
 	padding: 1px;
     display: flex;
     align-items: center;
+}
+
+h2 {
+	font-family: 'Shadows Into Light', cursive;
+	color: rgb(5, 70, 70);
+	font-size: 40px;
+	text-align: center;
 }
 
 .title-elements {
@@ -23,5 +31,59 @@ header {
 }
 
 aside {
-    border: 5px double rgb(9, 243, 243);
+    border: 3px dotted rgb(9, 243, 243);
+	background-color: rgba(244, 248, 248, 0.75);
+	display: flex;
+	float: right;
+	margin-top: -2px;
+	margin-right: 20em;
+	flex-direction: column;
+	padding: 1em;
+}
+
+.fishies {
+	border: 3px dotted rgb(9, 243, 243);
+	background-color: rgba(244, 248, 248, 0.75);
+	margin-left: 10em;
+	margin-right: 50em;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-basis: auto;
+}
+
+.fishies img {
+	width: 40%;
+}
+
+.travel_quotes {
+	border: 3px dotted rgb(9, 243, 243);
+	background-color: rgba(244, 248, 248, 0.75);
+	margin-top: 2em;
+	margin-left: 10em;
+	margin-right: 50em;
+	padding: 10px;
+	align-items: center;
+}
+
+.locations {
+	border: 3px dotted rgb(9, 243, 243);
+	background-color: rgba(244, 248, 248, 0.75);
+	align-items: center;
+	margin-top: 2em;
+	margin-left: 10em;
+	margin-right: 50em;
+	padding: 1em;
+	display: flex;
+	flex-direction: column;
+}
+
+.locations img {
+	margin: 20px;
+	width: 50%;
+}
+
+.location {
+	text-align: center;
 }
