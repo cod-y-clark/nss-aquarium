@@ -49,8 +49,6 @@ aside {
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
-	flex-basis: auto;
 }
 
 .fishies img {
